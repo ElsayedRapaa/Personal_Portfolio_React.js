@@ -9,18 +9,20 @@ import Services from "./Component/Services/Services";
 import Portfolio from "./Component/Portfolio/Portfolio";
 import Testimonials from "./Component/Testimonials/Testimonials";
 import Contact from "./Component/Contact/Contact";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
   return (
     <>
-    <Header />
-    <Nav />
-    <About />
-    <Experiance />
-    <Services />
-    <Portfolio />
-    <Testimonials />
-    <Contact />
+      <Header />
+      <Nav />
+      <About />
+      <Experiance />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 }

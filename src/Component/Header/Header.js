@@ -16,12 +16,12 @@ const Header = () => {
     <header id='home'>
       <div className="container header_container">
         <h5>Hello I'm</h5>
-        <h1>Hajia Bintu</h1>
+        <h1>Hagia Bentu</h1>
 
         <small>
           <Typewriter
             options={{
-              strings: ['Front-End Developer', 'Web Design', 'UI/UX', 'Giraphic Design'],
+              strings: ['Front-End Developer', 'Web Developer'],
               loop: true,
               autoStart: true
             }}

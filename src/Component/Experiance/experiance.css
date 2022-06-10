@@ -1,0 +1,34 @@
+.skill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill > h5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    margin-top: 1.2rem;
+    margin-bottom: .2rem;
+    font-size: 1rem;
+}
+
+.skill_icon {
+    color: var(--color-primary);
+    margin-left: .2rem;
+    margin-bottom: -.1rem;
+}
+
+.progress {
+    background-color: var(--color-primary-variant);
+    height: 25px;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.progress span {
+    display: block;
+    height: 100%;
+    background-color: var(--color-primary);
+}
